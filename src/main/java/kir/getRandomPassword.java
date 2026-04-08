@@ -21,7 +21,7 @@ public class getRandomPassword {
     }
 
     /* Делаем перегрузку метода на случай если значение параметра не будет выставлено */
-    void getPassword(){
+    void getPassword(){ // a
         for (int i = 0; i < 10; i++) { // ака ставим значение по умолчанию (10 символов)
             password += chars[random.nextInt(0, chars.length)];
         }
