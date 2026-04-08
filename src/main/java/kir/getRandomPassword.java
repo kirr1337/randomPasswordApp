@@ -1,4 +1,4 @@
-package com.kir;
+package kir;
 
 import java.util.Random;
 
@@ -10,11 +10,19 @@ public class getRandomPassword {
             'u', 'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E',
             'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P',
             'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', '#',
-            '!', '@'
+            '!', '@', '&', '*', '^', '%', '$', '~', '`'
     };
     public String password = String.valueOf(chars[random.nextInt(0, chars.length)]);
+    void getPassword(int lengthOfPassword){
+        for (int i = 0; i < lengthOfPassword; i++) {
+            password += chars[random.nextInt(0, chars.length)];
+        }
+        System.out.println(password);
+    }
+
+    /* Делаем перегрузку метода на случай если значение параметра не будет выставлено */
     void getPassword(){
-        for (int i = 0; i < 15; i++) {
+        for (int i = 0; i < 10; i++) { // ака ставим значение по умолчанию (10 символов)
             password += chars[random.nextInt(0, chars.length)];
         }
         System.out.println(password);
