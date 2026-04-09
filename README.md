@@ -1,8 +1,10 @@
+ДЛЯ ЗАПУСКА НУЖНА JVM 21+
+
 Привет друзья!
 
 Я сделал генератор паролей:
 
-![Uploading 2026-04-08_16-36-58.png…]()
+<img width="359" height="103" alt="2026-04-08_16-36-58" src="https://github.com/user-attachments/assets/bee97217-35a5-4be8-bc95-e0efea28d598" />
 
 КАК ЗАПУСТИТЬ:
 
@@ -30,9 +32,9 @@
 
 <img width="545" height="80" alt="2026-04-08_16-54-58" src="https://github.com/user-attachments/assets/3c62440d-768d-4bb4-a1a3-3ee10b7a457f" />
 
-То есть, у меня папка java находится на рабочем столе, значит директива C:\Users\cheat>java C:\Users\cheat\Desktop\java1\com\kir\Main.java
+То есть, у меня папка java находится на рабочем столе, значит директива C:\Users\cheat>java C:\Users\cheat\Desktop\java1\kir\Main.java
 
-то есть у вас это будет: C:\Users\cheat>java C:\Users\имя-пользователя\Desktop\java1\com\kir\Main.java
+то есть у вас это будет: C:\Users\cheat>java C:\Users\имя-пользователя\Desktop\java1\kir\Main.java
 
 
 <img width="153" height="145" alt="2026-04-08_16-56-43" src="https://github.com/user-attachments/assets/8f5e3e51-dd8e-4baf-96c8-9f4d9e7eb11a" />
@@ -41,7 +43,7 @@
 ЦЕЛИ НА БУДУЩЕЕ:
 
 1. сделать программу в gui (X)
-2. сделать параметр который отвечает за длинну пароля (X)
+
 
 
 
