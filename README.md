@@ -4,7 +4,7 @@
 
 Я сделал генератор паролей:
 
-![Uploading 2026-04-08_16-36-58.png…]()
+<img width="359" height="103" alt="2026-04-08_16-36-58" src="https://github.com/user-attachments/assets/bee97217-35a5-4be8-bc95-e0efea28d598" />
 
 КАК ЗАПУСТИТЬ:
 
